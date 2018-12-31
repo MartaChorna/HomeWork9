@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <suite name="General" parallel="false" verbose="10" thread-count="2">
+<tests>
+ <test name="SingleTestSuite1" verbose="2">
+    <parameter name="browser" value="chrome"/>	
+    <parameter name="username" value="forlits.check@gmail.com"/>
+    <parameter name="password" value="Qwerty123@"/>
+       <classes>
+       <class name="practice2.MyFirstTest"/>
+       </classes>
+       </test>
+	<test name="SingleTestSuite1Firefox" verbose="2">
+	<parameter name="browser" value="firefox"/>	
+    <parameter name="username" value="forlits.check@gmail.com"/>
+    <parameter name="password" value="Qwerty123@"/>
+		<classes>
+		    <class name="practice2.MyFirstTest"/>
+		</classes>
+	</test>
+	 </tests> 
+</suite>
+
+
